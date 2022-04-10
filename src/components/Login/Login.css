@@ -30,6 +30,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 24px;
+    padding-left: 5px;
 }
 
 .form-submit{
@@ -39,7 +40,13 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
 }
+
+.form-submit:hover{
+    background-color: hotpink;
+}
+
 .form-link{
     color: pink;
     text-decoration: none;
